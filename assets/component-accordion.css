@@ -51,8 +51,14 @@
   word-break: break-word;
   overflow-x: auto;
   padding: 0 0.6rem;
+  transition: all 0.3s ease;
 }
 
 .accordion__content img {
   max-width: 100%;
+}
+
+.accordion__content p {
+  color: red;
+  transition: all 0.3s ease;
 }
